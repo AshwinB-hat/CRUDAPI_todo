@@ -1,0 +1,45 @@
+h1 {
+	
+}
+
+.task{
+
+}
+
+.list{
+	width:40%;
+	margin:0% auto;
+	
+}
+
+#todoInput{
+	border:none;
+	border-bottom: solid 2px;
+	width:50%;
+	margin-right: 10%;
+	padding:10px;
+	outline: none;
+	float:left;
+	font-size: 200%;
+
+}
+
+.done{
+	text-decoration: line-through;
+	color:grey;
+}
+
+span{
+	color:red;
+	float:right;
+	cursor: pointer;
+	opacity: 0
+}
+
+li:hover{
+	background: grey;
+
+}
+li:nth_child{
+	opacity:1;
+}
